@@ -1,0 +1,65 @@
+Collections:- 
+
+Collection is a framwork which has certain interfaces and
+implemented classes to store huge amount of data
+
+
+What are all the operations ?
+CRUD--> Create Read Update Delete 
+
+Collection --->add(Create),remove(Delete), get(Read), set(Update)
+
+
+List ---> ArrayList, LinkedList, Vector, Stack
+
+Queue ---> PriorityQueue, DeQueue
+
+Set ---> HashSet, LinkedHashSet, TreeSet --->SortedSet(Interface) 
+
+Map ---> HashMap, LinkedHashMap, TreeMap, HashTable 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thread
+Files 
+
+
+HTML
+CSS
+XML 
+
+JAVASCRIPT
+
+Angular
+
+Jsp
+Servlets
+JDBC
+
+Spring
+Spring Boot
+Restful Webservices
+
+
+
+
+
+
+ 
+
+
+
