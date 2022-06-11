@@ -1,0 +1,147 @@
+RDBMS ----Relational Data Base Management System 
+
+SQL:- Structured Query Language  and 
+PLSQL :- Procecude 
+
+
+Data will be stored in the form of Tables 
+
+combination of Rows and Columns 
+
+
+
+DBMS is a software 
+
+----> in the form of Tables 
+
+-----> Reduces the Redundancy 
+
+
+Transaction:- Combination of some tasks is nothing but a Transaction.
+1. Balance Enquiry 
+2. Deduct funds from my account
+3. Credit funds to my friend Account 
+
+----->
+
+Student :- Class 
+
+
+properties {
+
+name
+rollno
+section 
+grade 
+emailId
+phone number 
+
+
+}
+List<Student> studentList SABCDEF
+
+studentId name  section grade emailId phone number Department id 
+121	satti	CSE 	A	SATTI	9O89		01	
+122	Pavan	CSE	A 	PAVAN@GMAIL.COM 	02
+123 	Kiran 		S	kiran@gmail.com	998u	03
+
+
+Constraints:- 
+1. Key Constraint
+2. Domain constraint
+3. Referential Integrity Constraint.
+
+Department 
+deptname deptId 
+CSE	 01
+ECE	 02
+ECT 	 03
+CST 	 04
+EEE	 05
+Mech	 06
+Civil	 07
+xyz 	 08 
+
+
+Library 
+
+libraryId libraryname incharge inchargeId  bookId 
+
+
+STUDENT
+
+STDID STDNAME  GMAILID PHONE NUMBER ADDRESSID 
+					101
+
+ADDRESS 
+ADDRESSid DNO AREA STATE PINCODE
+101	 12-18-24	ANDHRAPRADESH	 534102 
+Book 
+
+bookId bookName Author price
+
+ONE TO ONE STUDENT ADDRESS 
+ONE TO MANY 
+MANY TO MANY
+MANY TO ONE 
+
+
+DIFFERENT TYPES OF KEYS 
+
+SUPER KEY ----
+studentId name  section grade emailId phone number Department id 
+121	satti	CSE 	A	SATTI	9O89		01	
+121	Pavan	CSE	A 	PAVAN@GMAIL.COM 	02
+121 	Kiran 		S	kiran@gmail.com	998u	03
+
+STUDENTID ,(STDID, EMAILID, PHONENUMBER) 
+
+
+CANDITATE KEY:- 
+STUDENTID , PHONE NUMBER 
+
+PRIMARY KEY:- not null and unique
+
+UNIQ KEY :- data should be unique 
+
+NOT NULL:- 
+
+
+VARCHAR 
+
+NUMBER 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+

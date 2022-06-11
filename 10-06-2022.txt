@@ -1,0 +1,83 @@
+SQL:- Normal Queries every time we have to write it will no store 
+
+CRUD Operations:- Create, Read, Update, Delete 
+
+
+
+
+DDL:- Creation 
+create	to create new table or database
+create table Student studentId datatype constraint ... values();
+
+alter	for alteration
+truncate	delete data from table
+drop	to drop a table
+rename	to rename a table
+
+DML:- Data Manipulation Language 
+insert
+update
+delete
+merge 
+
+
+
+DQL:- Select 
+
+1.balance Check
+credit 
+debit 
+
+ 
+DCL:- Data Control Language 
+grant 
+revoke 
+
+
+
+TCL:- Transaction Control Language 
+
+1. commit 
+2. Rollback 
+3. savepoint 
+
+
+-- create
+CREATE TABLE DEPARTMENT (
+deptId INTEGER  PRIMARY KEY,
+departmentName TEXT NOT NULL 
+);
+INSERT INTO DEPARTMENT  VALUES (01, 'CSE');
+INSERT INTO DEPARTMENT  VALUES (02, 'ECE');
+INSERT INTO DEPARTMENT  VALUES (03, 'CST');
+
+CREATE TABLE STUDENT (
+  studentId INTEGER PRIMARY KEY,
+  studentName TEXT NOT NULL,
+  deptId INTEGER  NOT NULL,
+  foreign KEY (deptId) references DEPARTMENT (deptId)
+);
+
+
+
+-- insert
+INSERT INTO STUDENT  VALUES (01, 'Kiran', 01);
+INSERT INTO STUDENT  VALUES (02, 'Dave', 02);
+INSERT INTO STUDENT  VALUES (03, 'Ava', 03);
+
+-- fetch 
+select departmentName from DEPARTMENT where deptId=01;
+
+SELECT std.studentId, std.studentName dept.departmentName 
+FROM STUDENT std, DEPARTMENT dept WHERE 
+dept.departmentName='CSE';
+
+PLSQL:- 
+Procedure 
+
+functions
+
+
+triggers
+
+
