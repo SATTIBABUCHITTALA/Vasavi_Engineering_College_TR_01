@@ -1,5 +1,5 @@
 RDBMS ----Relational Data Base Management System 
-
+SATTI BABU
 SQL:- Structured Query Language  and 
 PLSQL :- Procecude 
 
